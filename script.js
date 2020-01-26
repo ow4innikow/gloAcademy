@@ -1,20 +1,25 @@
-//2) В файле скрипта создать переменные: - money,  - income,- addExpenses, - deposit, - mission, - period
-let money;
-let income;
-let addExpenses;
-let deposit;
-let mission;
-let period; 
- 
-// 3) Вывести на экран в модальном окне (alert) сообщение с любым текстом
-alert('это Алёрт'); 
+let money = 9000; //доход за месяц
+let income = 'ремонт ноутбуков';//строка с доп доходом
+let addExpenses = 'ЕДА, КОММУНАЛКА, ИНТЕРНЕТ, МЕТРО';// доп расходы
+let deposit = false;
+let mission = 38000;
+let period = 12; 
+console.log(typeof money);
+console.log(typeof income);
+console.log(typeof deposit);
 
-// 4) Вывести в консоль сообщение с любым текстом
-console.log('это сообщение выводится в консоль'); 
-
-
-//5) Проверить, чтобы все работало и не было ошибок в консоли
-// проверил - ошибок нет
-
-// 6) Создать свой репозиторий на GitHub и поместить туда папку с первым заданием
-// создал и поместил
+//  - Вывести в консоль длину строки addExpenses
+console.log('длина строки addExpenses:', addExpenses.length);
+//- Вывести в консоль “Период равен (period) месяцев” 
+// и “Цель заработать (mission) рублей/долларов/гривен/юани”
+console.log('Период равен ' + period + ' месяцев');
+console.log('Цель заработать ' + mission + 'гривен');
+//- Привести строку addExpenses к нижнему регистру 
+// и разбить строку на массив, вывести массив в консоль
+addExpenses = addExpenses.toLowerCase();
+console.log(addExpenses.split(', '));
+//- Объявить переменную budgetDay 
+//и присвоить дневной бюджет (доход за месяц / 30)
+let budgetDay = money/30;
+//- Вывести в консоль budgetDay
+console.log(budgetDay);
