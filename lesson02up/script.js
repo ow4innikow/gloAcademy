@@ -1,7 +1,7 @@
 let num = 266219;
 
 let str = num.toString();
-let arr = str.split('')
+let arr = str.split('');
 let multi = 1;
 for (let i = 0; i < arr.length; i++){
   multi *= (+arr[i]);
