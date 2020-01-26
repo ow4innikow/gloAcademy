@@ -1,10 +1,10 @@
 //2) В файле скрипта создать переменные: - money,  - income,- addExpenses, - deposit, - mission, - period
-let money;
-let income;
-let addExpenses;
-let deposit;
-let mission;
-let period; 
+let money, 
+income, 
+addExpenses, 
+deposit, 
+mission, 
+period; // поправил переменные через запятую написал. через перечисление
  
 // 3) Вывести на экран в модальном окне (alert) сообщение с любым текстом
 alert('это Алёрт'); 
